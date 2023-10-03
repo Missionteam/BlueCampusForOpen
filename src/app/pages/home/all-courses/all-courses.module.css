@@ -1,0 +1,24 @@
+.bg {
+  min-height: 100vh;
+  padding-bottom: 800px;
+  background-color: rgb(0, 0, 0);
+  /* background: linear-gradient(
+    180deg,
+    hsla(208, 41%, 40%, 0.6) 30%,
+    hsla(210, 75%, 19%, 0.6) 40%,
+    hsla(210, 75%, 19%, 0.978) 50%,
+    hsla(210, 75%, 19%, 0.6) 60%,
+    hsla(210, 75%, 19%, 0.8) 70%,
+    hsla(208, 41%, 40%, 0.6) 80%,
+    hsla(208, 41%, 40%, 0.6) 90%
+  ); */
+  /* background-image: linear-gradient(
+    180deg,
+    #2c547700 0,
+    hsla(208, 46%, 32%, 0.15) 15%,
+    hsla(208, 46%, 32%, 0.35) 29%,
+    #2c547747 44%,
+    #2c547794 68%,
+    #2c547794
+  ); */
+}

@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 255, 255, 255;
+    --background-end-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  justify-content: center;
+  align-items: center;
+}
+
+.app-blue {
+  background-color: rgb(106, 167, 241);
+}
+
+.NotoSans {
+  font-family: var(--font-roboto-mono);
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
