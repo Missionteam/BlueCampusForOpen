@@ -1,24 +1,20 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## このプロジェクトの説明
 
-First, run the development server:
+このプロジェクトは、「青の学び舎」というサービスをオンライン化することを目標としたものです。
+概要としては、「学びながら、ゆっくり好きになる」というコンセプトの元、
+「なにかに挑戦したい」と考えている人たちが、一緒になにかを学習し、だんだん相手のことを知っていく。
+そのための、オンラインでのコース申込、および複数人でのオンライン学習を行うためのサイトです。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
+## Webアプリの開発について
+　これは、私が、react.jsを初めて学習し、作成したWebサイトです。
+ ただし、まだ未完成の部分が多々あります。
+ 作成期間としては、3週間ほどで、一人で開発しています。
+ 
+##注意点
+　こちらのプロダクトは、MVPを最速で作ることを目的にしている個人開発プロジェクトなため、フォルダ構成、コーディング等が、汚くなってしまっている点があります。
+ また、セキュリティについても、本来よりも
 
 To learn more about Next.js, take a look at the following resources:
 
